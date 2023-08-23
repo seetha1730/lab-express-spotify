@@ -1,0 +1,75 @@
+.spotify-bg {
+  background: url(/images/spotify-background.jpeg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img.card-img-top {
+  height: 70%;
+}
+.card-body {
+  background: #4d4d4d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.orange-btn {
+  background-color: #ee6866;
+  border: none;
+}
+.orange-btn a {
+  text-decoration: none;
+  color: white;
+}
+.card {
+  padding: 0;
+  border: 0;
+  width: 29.6%;
+}
+.form-inline {
+  padding: 4% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+height: 230px;
+
+}
+.container .card.album-content {
+  padding: 0;
+  border: 0;
+  width: 29.6%;
+}
+.card.album-content {
+  padding: 0;
+  border: 0;
+  width: 29.6%;
+}
+.track-header {
+  background: #4a4a4a;
+  padding: 20px;
+  color: #fff;
+}
+.tracks-list li {
+  background: #f6f6f6;
+  margin-bottom: 5px;
+}
+.tracks-list ul {
+  padding: 0;
+}
+.track-list-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+}

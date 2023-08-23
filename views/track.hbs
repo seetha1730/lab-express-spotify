@@ -1,0 +1,27 @@
+ <div class="container">
+ <div class="track-header row col-lg-12 col-md-12">
+    <h3 class="col-lg-8 col-md-8">Tracks list name </h3>
+    <h3 class="col-lg-4 col-md-4">listen</h3>
+ </div>
+ <div class="p-0 tracks-list ">
+<ul>
+    
+{{#each viewtracks}}
+
+    <li class='row col-lg-12 col-md-12 p-0'>
+          <span class="col-lg-8 col-md-4 track-list-name">{{this.name}}</span>
+            {{#if this.preview_url}}
+              <audio controls class="col-lg-4 col-md-4">
+                <source src="{{this.preview_url}}" type="audio/ogg">
+               
+              </audio>
+            {{else}}
+              <p>No audio available.</p>
+            {{/if}}
+        </li>
+   
+
+ {{/each}}
+ </ul>
+</div>
+ </div>
